@@ -1,0 +1,30 @@
+{
+  "name": "sheet-music-creator",
+  "author": "David Reichert <david.reichert1221@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reichert1221/RoyalGuard.git"
+  },
+  "version": "0.0.1",
+  "description": "Home website for the Harrisonville Royal Guard Band Boosters. Contains information pertaining to the Royal Regiment, Concert/Symphonic, and other bands.",
+  "main": "server.js",
+  "engines": {
+    "node": "0.10.26",
+    "npm": "1.4.3"
+  },
+  "dependencies":
+    {
+      "bower": "1.2.8",
+      "express": "4",
+      "body-parser": "~1.0.0",
+      "morgan": "~1.0.0",
+      "method-override": "~1.0.0",
+      "consolidate": "~0.10.0",
+      "grunt-cli": "~0.1.11",
+      "grunt-concurrent": "~0.4.2",
+      "grunt-nodemon": "0.2.0",
+      "grunt-contrib-watch": "~0.5.3",
+      "grunt-contrib-jshint": "~0.8.0",
+      "mongoose": "~3.8.3"
+    }
+}

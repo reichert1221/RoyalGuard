@@ -1,0 +1,11 @@
+{
+  "name": "RoyalGuard",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "jQuery": "latest",
+    "snap.svg": "latest"
+  }
+}
