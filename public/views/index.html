@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <base href="/">
+    <title> Royal Guard Band Boosters </title>
+    <meta type="author" content="David Reichert">
+    <meta type="generatror" content="Sublime Text 3">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar-static-top.css">
+
+    <!-- Angular -->
+    <script type="text/javascript" src="/libs/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/libs/angular-route/angular-route.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-app="bandBoosters">
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">Royal Guard Band Boosters</a>
+
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+
+                <li class="dropdown-header"> Band Boosters </li>
+                <li><a href="#">About the Band Boosters</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Ensambles</li>
+                <li><a href="#">Royal Regiment</a></li>
+                <li><a href="#">Jazz Band</a></li>
+                <li><a href="#">Symphonic/Concert Band</a></li>
+                <li><a href="#">Brass Choir</a></li>
+                <li><a href="#">Drumline</a></li>
+                <li><a href="#">Color Guard and Winter Guard</a></li>
+
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+
+                <li class="dropdown-header">Marching Invitationals</li>
+                <li><a href="#">Webstock</a></li>
+                <li><a href="#">Blue Springs</a></li>
+                <li><a href="#">Ozarko</a></li>
+                <li><a href="#">UCM Festival of Champions</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Concerts</li>
+                <li><a href="#">Benefit Concert</a></li>
+                <li><a href="#">Winter Concert</a></li>
+                <li><a href="#">Dinner Concert</a></li>
+                <li><a href="#">Spring Concert</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Drumline</li>
+                <li><a href="#">Drumline Competition</a></li>
+                <li><a href="#">Drumline Competition</a></li>
+                <li><a href="#">Drumline Competition</a></li>
+                <li><a href="#">Drumline Competition</a></li>
+                <li><a href="#">Drumline Competition</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Guard</li>
+                <li><a href="#">Guard Competition</a></li>
+                <li><a href="#">Guard Competition</a></li>
+                <li><a href="#">Guard Competition</a></li>
+                <li><a href="#">Guard Competition</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Contests</li>
+                <li><a href="#">District Solo and Small Ensamble</a></li>
+                <li><a href="#">State Solo and Small Ensamble</a></li>
+                <li><a href="#">State Band</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Schedules</li>
+                <li><a href="#">First Semester</a></li>
+                <li><a href="#">Second Semester</a></li>
+
+              </ul>
+            </li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-md btn-success">Log In</button>
+          </form>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="container" ng-view>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="/libs/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
